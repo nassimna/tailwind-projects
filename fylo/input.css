@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user {
+  @apply flex items-center space-x-4;
+}
+.box {
+  @apply flex flex-col p-10 space-y-6 bg-gray-100 dark:bg-darkBlue3;
+}
